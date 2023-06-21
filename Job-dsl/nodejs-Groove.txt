@@ -5,8 +5,7 @@ job('NodeJS example') {
 		     node / gitConfigEmail('jenkins-dsl@newtech.academy')
 		  }
 	  }	
-	
-	triggers {
+	   triggers {
 	   scm('H/5 ****')
 	}
 	wrappers {
